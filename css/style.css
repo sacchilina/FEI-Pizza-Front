@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #222222;
+    height: 100px;
+    width: 100%;
+    color: white;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 10px;
+}
+
+/* Box shadow: /* offset-x | offset-y | blur-radius | color */ */
+
+header .text {
+    padding: 8px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 350px;
+    list-style-type: none;
+    justify-self: flex-end;
+}
+
+header nav {
+    position: absolute;
+    right: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:  #E5E5E5;
+}
+
+.podio{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 491px;
+    height: 350px;
+    background-color: white;
+    padding: 15px;
+}
+
+.podio h2 {
+    text-align: center;
+    color: #FC200C;
+    font-size: 24px;
+}
+
+.enviogratis {
+    background-image: url(../img/delivery.svg);
+    width: 490px;
+    height: 350px;
+}
+
+.enviogratis h2 {
+    color: #FC200C;
+    font-size: 24px;
+}
+
+.enviogratis h2 span {
+    color: white;
+}
+
+.enviogratis {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.podio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.podiosub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+.top5 h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #222222;
+    margin-bottom: 23px;
+}
+
+.top5 ol li {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 12px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    background-color: #222222;
+    height: 150px;
+    width: 100%;
+    color: white;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+}
+
+
+footer .logo {
+    margin-left: 20px;
+    margin-right: 8px;
+    position: absolute;
+    right: 140px;
+}
+
+
+footer nav ul {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-evenly;
+
+} 
+
+footer .text {
+margin-right: 15px;
+}
